@@ -6803,3 +6803,8 @@ td.visible-print {
     display: none !important;
   }
 }
+
+table {
+    /*table-layout: fixed;*/
+    word-wrap: break-word;
+}

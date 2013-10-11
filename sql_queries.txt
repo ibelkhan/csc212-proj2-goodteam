@@ -1,0 +1,14 @@
+create database project2;
+
+CREATE TABLE seminars(
+	seminar_id INT NOT NULL AUTO_INCREMENT,
+	name varchar(99),
+	date DATETIME,
+	speaker varchar(99),
+	description TEXT,
+	department varchar(99),
+	food varchar(99),
+	PRIMARY KEY (seminar_id)
+)
+
+INSERT INTO seminars (name, date, speaker, description, department, food) VALUES('testname', '2013-11-14 13:17:17','Mitchell Poordon','He is gonna rap','Science', 'Steak');

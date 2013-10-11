@@ -29,40 +29,55 @@
       <div class="header">
         <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#">Add Seminar</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
         <h3 class="text-muted">Upcoming Seminars</h3>
       </div>
 
       <div class="jumbotron">
-        <h1>Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Sign up today</a></p>
+        <h1>UR Seminars</h1>
+        <p class="lead">Your one-stop location for all upcoming seminars at UR.</p>
+        <p><a class="btn btn-lg btn-success" href="#">Add a seminar</a></p>
       </div>
 
       <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+        <div class="bs-example">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Speaker</th>
+                    <th>Department</th>
+                    <th>Description</th>
+                    <th>Food</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <?php
+                  $db = mysqli_connect("localhost","root","password","project2");
+                  $sql = "DELETE * FROM seminars WHERE date < now()";
+                  $result = $db->query($sql);
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+                  $sql = "SELECT * FROM seminars ORDER BY date";
+                  $result = $db->query($sql);
+                  // $rows = $result->fetch_all();
+                  // print_r($rows);
+                  while($row = $result->fetch_assoc()){
 
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
+                    echo "<tr>";
+                    echo "<td>" . $row['date'] . "</td>";
+                    echo "<td>" . $row['speaker'] . "</td>";
+                    echo "<td>" . $row['department'] . "</td>";
+                    echo "<td>" . $row['description'] . "</td>";
+                    echo "<td>" . $row['food'] . "</td>";
+                    echo "</tr>";
+                  }
 
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
+                ?>
+                </tbody>
+              </table>
+            </div><!-- /example -->
       </div>
 
       <div class="footer">
