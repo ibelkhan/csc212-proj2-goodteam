@@ -10,6 +10,8 @@
 
     <title>Narrow Jumbotron Template for Bootstrap</title>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
     <!-- Bootstrap core CSS -->
     <!-- <link href="bootstrap.css" rel="stylesheet"> -->
 
@@ -71,6 +73,7 @@
                     echo "<td>" . $row['department'] . "</td>";
                     echo "<td>" . $row['description'] . "</td>";
                     echo "<td>" . $row['food'] . "</td>";
+                    echo "<td>" . $row['location'] . "</td>";
                     echo "</tr>";
                   }
 

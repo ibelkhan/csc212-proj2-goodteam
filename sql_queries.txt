@@ -8,6 +8,7 @@ CREATE TABLE seminars(
 	description TEXT,
 	department varchar(99),
 	food varchar(99),
+	location TINYTEXT,
 	PRIMARY KEY (seminar_id)
 )
 
