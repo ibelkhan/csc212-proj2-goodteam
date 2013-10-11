@@ -8,9 +8,14 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <title>Narrow Jumbotron Template for Bootstrap</title>
+    <title>UR Seminars</title>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bootstrap-datetimepicker.min.js"></script>
+
+    <link href="bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+
 
     <!-- Bootstrap core CSS -->
     <!-- <link href="bootstrap.css" rel="stylesheet"> -->
@@ -34,27 +39,45 @@
           <li class="active"><a href="add.php">Add Seminar</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <h3 class="text-muted">Upcoming Seminars</h3>
+        <h3 class="text-muted">Add a seminar</h3>
       </div>
 
       <form role="form">
         <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+          <label for="speaker1">Speaker</label>
+          <input type="text" class="form-control" id="speaker1" placeholder="Speaker name">
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <label for="department1">Department</label>
+          <input type="text" class="form-control" id="department1" placeholder="Department">
         </div>
         <div class="form-group">
-          <label for="exampleInputFile">File input</label>
-          <input type="file" id="exampleInputFile">
-          <p class="help-block">Example block-level help text here.</p>
+          <label for="description1">Description</label>
+          <textarea class="form-control" rows="2"></textarea>
         </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> Check me out
-          </label>
+        <!-- <div class="form-group"> -->
+          <label for="exampleInputFile">Date and Time (24 hour format)</label>
+            <!-- <div class='well'> -->
+                <div class="form-group">
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input type='text' class="form-control" />
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <script type="text/javascript">
+                $(function () {
+                    $('#datetimepicker1').datetimepicker();
+                });
+            </script>
+        <div class="form-group">
+          <label for="food1">Food</label>
+          <input type="text" class="form-control" id="food1" placeholder="Will there be food?">
+        </div>
+        <div class="form-group">
+          <label for="location1">Location</label>
+          <input type="text" class="form-control" id="location1" placeholder="Location">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>

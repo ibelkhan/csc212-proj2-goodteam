@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <title>Narrow Jumbotron Template for Bootstrap</title>
+    <title>UR Seminars</title>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
@@ -40,12 +40,12 @@
       <div class="jumbotron">
         <h1>UR Seminars</h1>
         <p class="lead">Your one-stop location for all upcoming seminars at UR.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Add a seminar</a></p>
+        <p><a class="btn btn-lg btn-success" href="add.php">Add a seminar</a></p>
       </div>
 
       <div class="row marketing">
         <div class="bs-example">
-              <table class="table table-hover">
+              <table class="table table-hover table-striped">
                 <thead>
                   <tr>
                     <th>Date</th>
@@ -53,6 +53,7 @@
                     <th>Department</th>
                     <th>Description</th>
                     <th>Food</th>
+                    <th>Location</th>
                   </tr>
                 </thead>
                 <tbody>
