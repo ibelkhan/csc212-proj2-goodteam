@@ -11,13 +11,15 @@ $db = new PDO('mysql:host=localhost;dbname=project2', 'root', 'password');
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $stmt = $db->prepare("INSERT INTO seminars(date, time, speaker, description, department, food, location) VALUES(STR_TO_DATE(:date, '%m/%d/%Y'),:time,:speaker,:description,:department,:food,:location)");
-$test = array(':date' => $date, ':time' => '5:50pm', ':speaker' => 'mitchell', ':description' => 'fgdgfds', ':department' => 'fdsafd', ':food'=>'fdsfdsa', ':location'=>'fdsafdsa');
+$test = array(':date' => $date, ':time' => $time, ':speaker' => $speaker, ':description' => $description, ':department' => $department, ':food'=>$food, ':location'=>$location);
 try {
     $stmt->execute($test);
 }
 catch (PDOException $e) {
     echo $e->getMessage();
 }
+
+header( 'Location: http://ec2-54-205-135-226.compute-1.amazonaws.com/index.php' ) ;
 
 // $db = mysqli_connect("localhost","root","password","project2");
 // $sql = $db->prepare("INSERT INTO seminars (date, time, speaker, description, department, food, location) VALUES(?,?,?,?,?,?,?)");
@@ -33,7 +35,7 @@ catch (PDOException $e) {
 //    exit();
 // }
 
-echo "worked";
+// echo "worked";
 
 
 // echo $date;
