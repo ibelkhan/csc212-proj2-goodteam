@@ -38,8 +38,9 @@
       </div>
 
       <div class="jumbotron">
-        <h1>UR Seminars</h1>
-        <p class="lead">Your one-stop location for all upcoming seminars at UR.</p>
+        <div id="background" class="translucent"></div>
+        <h1 class = "jumbo-text">UR Seminars</h1>
+        <p class="lead jumo-text">Your one-stop location for all upcoming seminars at UR.</p>
         <p><a class="btn btn-lg btn-success" href="add.php">Add a seminar</a></p>
       </div>
 
