@@ -58,7 +58,7 @@
         <!-- <div class="form-group"> -->
           <div class="form-group">
           <label>Date</label>
-            <input type="text" class="form-control" value="02/16/12" data-date-format="mm/dd/yy" id="dp2" name = "date">
+            <input type="text" class="form-control" value="10/16/13" data-date-format="mm/dd/yy" id="dp2" name = "date">
             <script>
               $(document).ready(function(){
                 $('#dp2').datepicker();
@@ -66,7 +66,7 @@
             </script>
           </div>
         <div class="form-group">
-          <label for="time1">Food</label>
+          <label for="time1">Time</label>
           <input type="text" class="form-control" id="time1" placeholder="Time" name = "time">
         </div>
         <div class="form-group">
