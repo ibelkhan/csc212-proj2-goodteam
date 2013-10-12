@@ -11,9 +11,9 @@
     <title>UR Seminars</title>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="bootstrap-datetimepicker.min.js"></script>
+    <script src="bootstrap-datepicker.js"></script>
 
-    <link href="bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="datepicker.css" rel="stylesheet">
 
 
 
@@ -56,24 +56,22 @@
           <textarea class="form-control" rows="2" name = "description"></textarea>
         </div>
         <!-- <div class="form-group"> -->
-          <label for="exampleInputFile">Date and Time (24 hour format)</label>
-            <!-- <div class='well'> -->
-                <div class="form-group">
-                    <div class='input-group date' id='datetimepicker1'>
-                        <input type='text' class="form-control" name = "date"/>
-                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-                        </span>
-                    </div>
-                </div>
-            <!-- </div> -->
-            <script type="text/javascript">
-                $(function () {
-                    $('#datetimepicker1').datetimepicker();
-                });
+          <div class="form-group">
+          <label>Date</label>
+            <input type="text" class="form-control" value="02/16/12" data-date-format="mm/dd/yy" id="dp2" name = "date">
+            <script>
+              $(document).ready(function(){
+                $('#dp2').datepicker();
+              });
             </script>
+          </div>
+        <div class="form-group">
+          <label for="time1">Food</label>
+          <input type="text" class="form-control" id="time1" placeholder="Time" name = "time">
+        </div>
         <div class="form-group">
           <label for="food1">Food</label>
-          <input type="text" class="form-control" id="food1" placeholder="Will there be food?" name = "food">
+          <input type="text" class="form-control" id="food1" placeholder="Will there be food? What kind?" name = "food">
         </div>
         <div class="form-group">
           <label for="location1">Location</label>
