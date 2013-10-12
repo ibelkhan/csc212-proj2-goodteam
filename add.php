@@ -42,25 +42,25 @@
         <h3 class="text-muted">Add a seminar</h3>
       </div>
 
-      <form role="form">
+      <form role="form" action="addSeminar.php">
         <div class="form-group">
           <label for="speaker1">Speaker</label>
-          <input type="text" class="form-control" id="speaker1" placeholder="Speaker name">
+          <input type="text" class="form-control" id="speaker1" placeholder="Speaker name" name = "speaker">
         </div>
         <div class="form-group">
           <label for="department1">Department</label>
-          <input type="text" class="form-control" id="department1" placeholder="Department">
+          <input type="text" class="form-control" id="department1" placeholder="Department" name = "department">
         </div>
         <div class="form-group">
           <label for="description1">Description</label>
-          <textarea class="form-control" rows="2"></textarea>
+          <textarea class="form-control" rows="2" name = "description"></textarea>
         </div>
         <!-- <div class="form-group"> -->
           <label for="exampleInputFile">Date and Time (24 hour format)</label>
             <!-- <div class='well'> -->
                 <div class="form-group">
                     <div class='input-group date' id='datetimepicker1'>
-                        <input type='text' class="form-control" />
+                        <input type='text' class="form-control" name = "date"/>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
                         </span>
                     </div>
@@ -73,11 +73,11 @@
             </script>
         <div class="form-group">
           <label for="food1">Food</label>
-          <input type="text" class="form-control" id="food1" placeholder="Will there be food?">
+          <input type="text" class="form-control" id="food1" placeholder="Will there be food?" name = "food">
         </div>
         <div class="form-group">
           <label for="location1">Location</label>
-          <input type="text" class="form-control" id="location1" placeholder="Location">
+          <input type="text" class="form-control" id="location1" placeholder="Location" name = "location">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
