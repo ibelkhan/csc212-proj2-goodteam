@@ -12,4 +12,4 @@ CREATE TABLE seminars(
 	PRIMARY KEY (seminar_id)
 )
 
-INSERT INTO seminars (name, date, speaker, description, department, food, location, time) VALUES('testname', '2013-11-14','Mitchell Poordon','He is gonna rap','Science', 'Steak', 'CSB 209', '5:00 PM');
+INSERT INTO seminars ( date, speaker, description, department, food, location, time) VALUES('2013-11-14','Mitchell Poordon','He is gonna rap','Science', 'Steak', 'CSB 209', '5:00 PM');
