@@ -54,7 +54,7 @@
         </div>
         <div class="form-group">
           <label for="description1">Description</label>
-          <textarea class="form-control" rows="2" name = "description"></textarea>
+          <textarea class="form-control" rows="2" name = "description" placeholder="What will the seminar be about?"></textarea>
         </div>
         <!-- <div class="form-group"> -->
           <div class="form-group">
