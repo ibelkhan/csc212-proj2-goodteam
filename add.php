@@ -61,7 +61,7 @@
             <input type="text" class="form-control" value="10/16/13" data-date-format="mm/dd/yy" id="dp2" name = "date">
             <script>
               $(document).ready(function(){
-                $('#dp2').datepicker();
+                $('#dp2').datepicker(); //initializes datepicker
               });
             </script>
           </div>
@@ -81,7 +81,7 @@
       </form>
 
       <div class="footer">
-        <p>&copy; Company 2013</p>
+        <p>&copy; UR Seminars</p>
       </div>
 
     </div> <!-- /container -->

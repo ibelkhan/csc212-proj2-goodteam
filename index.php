@@ -65,15 +65,15 @@
                 </thead>
                 <tbody>
                 <?php
-                  $db = mysqli_connect("localhost","root","password","project2");
-                  $sql = "DELETE * FROM seminars WHERE date < now()";
+                  $db = mysqli_connect("localhost","root","password","project2"); //connects to db
+                  $sql = "DELETE * FROM seminars WHERE date < now()"; //deletes seminars from db that have already happened
                   $result = $db->query($sql);
 
-                  $sql = "SELECT * FROM seminars ORDER BY date";
+                  $sql = "SELECT * FROM seminars ORDER BY date"; //gets all upcoming seminars
                   $result = $db->query($sql);
                   // $rows = $result->fetch_all();
                   // print_r($rows);
-                  while($row = $result->fetch_assoc()){
+                  while($row = $result->fetch_assoc()){ //prints row for each seminar
 
                     echo "<tr>";
                     echo "<td data-dateformat='YYYY-MM-DD'>" . $row['date'] . "</td>";
@@ -93,7 +93,7 @@
       </div>
 
       <div class="footer">
-        <p>&copy; Company 2013</p>
+        <p>&copy; UR Seminars</p>
       </div>
 
     </div> <!-- /container -->
