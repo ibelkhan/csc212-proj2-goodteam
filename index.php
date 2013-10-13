@@ -12,6 +12,9 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
+    <script src="bootstrap-sortable.js"></script>
+    <link href="bootstrap-sortable.css" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
     <!-- <link href="bootstrap.css" rel="stylesheet"> -->
 
@@ -46,10 +49,10 @@
 
       <div class="row marketing">
         <div class="bs-example">
-              <table class="table table-hover table-striped">
+              <table class="table table-hover table-striped sortable">
                 <thead>
                   <tr>
-                    <th>Date</th>
+                    <th data-defaultsort="asc" class="date-col">Date</th>
                     <th>Time</th>
                     <th>Speaker</th>
                     <th>Department</th>
