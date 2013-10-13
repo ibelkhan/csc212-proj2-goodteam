@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
 
     <title>UR Seminars</title>
 
@@ -14,8 +14,6 @@
 
     <script src="bootstrap-sortable.js"></script>
     <link href="bootstrap-sortable.css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="favicon.png" type="image/png">
 
     <!-- Bootstrap core CSS -->
     <!-- <link href="bootstrap.css" rel="stylesheet"> -->

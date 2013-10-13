@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
 
     <title>UR Seminars</title>
 
@@ -39,7 +39,7 @@
           <li class="active"><a href="add.php">Add Seminar</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <h3 class="text-muted">Add a seminar</h3>
+        <h3 class="text-muted">Add Seminar</h3>
       </div>
 
       <form role="form" action="addSeminar.php">
