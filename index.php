@@ -74,7 +74,7 @@
                   while($row = $result->fetch_assoc()){
 
                     echo "<tr>";
-                    echo "<td>" . $row['date'] . "</td>";
+                    echo "<td data-dateformat='YYYY-MM-DD'>" . $row['date'] . "</td>";
                     echo "<td>" . $row['time'] . "</td>";
                     echo "<td>" . $row['speaker'] . "</td>";
                     echo "<td>" . $row['department'] . "</td>";
