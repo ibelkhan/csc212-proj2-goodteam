@@ -37,6 +37,7 @@
         <ul class="nav nav-pills pull-right">
           <li><a href="index.php">Home</a></li>
           <li class="active"><a href="add.php">Add Seminar</a></li>
+          <li><a href="map.php">Map</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
         <h3 class="text-muted">Add Seminar</h3>
