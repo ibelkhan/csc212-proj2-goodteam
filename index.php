@@ -15,6 +15,8 @@
     <script src="bootstrap-sortable.js"></script>
     <link href="bootstrap-sortable.css" rel="stylesheet">
 
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+
     <!-- Bootstrap core CSS -->
     <!-- <link href="bootstrap.css" rel="stylesheet"> -->
 
