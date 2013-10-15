@@ -12,3 +12,15 @@ Components:
         comment section, read and comment;
         map；
         calendar;
+
+
+
+
+
+Actually work:
+
+1. Front-end list for seminars;
+2. Back-end SQL setting for adding and editing seminars;
+3. Add calendar;
+4. Add calendar setting button; limitations: cannot add to calendar locally;
+5. Add image map, google map to be added;
