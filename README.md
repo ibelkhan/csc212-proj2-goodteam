@@ -5,8 +5,12 @@ Mitchell Gordon
 Lukas Slipski
 Michael Shteyn
 Jianbo Yuan
-**Is the components and actual work section necessary??**
-Components:
+
+
+*Is the components and actual work section necessary??*
+
+
+Components (original hopefuls):
 
 1. Log in: Student account and Department account;
 2. First log in for student: choose year, department; first log in for department: choose department (opt);
@@ -23,13 +27,13 @@ Components:
 
 
 
-Actual work:
+Actual Design:
 
 1. Front-end list for seminars;
 2. Back-end SQL setting for adding and editing seminars;
 3. Add calendar;
 4. Add calendar setting button; limitations: cannot add to calendar locally;
-5. Add image map, google map to be added;
+5. Add image map, information per seminar;
 
 
 What It Can Do:
