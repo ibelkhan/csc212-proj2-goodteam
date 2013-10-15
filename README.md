@@ -17,7 +17,7 @@ Components:
 
 
 
-Actually work:
+Actuall work:
 
 1. Front-end list for seminars;
 2. Back-end SQL setting for adding and editing seminars;
