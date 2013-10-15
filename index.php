@@ -15,6 +15,9 @@
     <script src="bootstrap-sortable.js"></script>
     <link href="bootstrap-sortable.css" rel="stylesheet">
 
+    <script src="bootstrap-rowlink.min.js"></script>
+    <link href="bootstrap-rowlink.min.css" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
     <!-- <link href="bootstrap.css" rel="stylesheet"> -->
 
@@ -50,7 +53,7 @@
 
       <div class="row marketing">
         <div class="bs-example">
-              <table class="table table-hover table-striped sortable">
+              <table class="table table-hover table-striped sortable" data-provides="rowlink">
                 <thead>
                   <tr>
                     <th data-defaultsort="asc" class="date-col">Date</th>
@@ -74,8 +77,8 @@
                   // print_r($rows);
                   while($row = $result->fetch_assoc()){ //prints row for each seminar
 
-                    echo "<tr>";
-                    echo "<td data-dateformat='YYYY-MM-DD'>" . $row['date'] . "</td>";
+                    echo "<tr class='rowlink'> ";
+                    echo "<td data-dateformat='YYYY-MM-DD'><a href='#'>" . $row['date'] . "</a></td>";
                     echo "<td>" . $row['time'] . "</td>";
                     echo "<td>" . $row['speaker'] . "</td>";
                     echo "<td>" . $row['department'] . "</td>";
