@@ -36,7 +36,6 @@
           <li><a href="index.php">Home</a></li>
           <li><a href="add.php">Add Seminar</a></li>
           <li class="active"><a href="map.php">Map</a></li>
-          <li><a href="#">Contact</a></li>
         </ul>
         <h3 class="text-muted">Map</h3>
       </div>

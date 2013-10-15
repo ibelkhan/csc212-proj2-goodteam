@@ -39,7 +39,6 @@
           <li class="active"><a href="index.php">Home</a></li>
           <li><a href="add.php">Add Seminar</a></li>
           <li><a href="map.php">Map</a></li>
-          <li><a href="#">Contact</a></li>
         </ul>
         <h3 class="text-muted">Upcoming Seminars</h3>
       </div>
@@ -77,8 +76,8 @@
                   // print_r($rows);
                   while($row = $result->fetch_assoc()){ //prints row for each seminar
 
-                    echo "<tr class='rowlink'> ";
-                    echo "<td data-dateformat='YYYY-MM-DD'><a href='#'>" . $row['date'] . "</a></td>";
+                    echo "<tr class='rowlink-modal'> ";
+                    echo "<td data-dateformat='YYYY-MM-DD'><a data-toggle='modal' href='#myModal' class='rowlink'>" . $row['date'] . "</a></td>";
                     echo "<td>" . $row['time'] . "</td>";
                     echo "<td>" . $row['speaker'] . "</td>";
                     echo "<td>" . $row['department'] . "</td>";
@@ -93,6 +92,36 @@
               </table>
             </div><!-- /example -->
       </div>
+
+      <script>
+      $(document).ready(function(){
+        $('.rowlink-modal').each(function(){
+            console.log('in');
+         $(this)
+           .attr('data-toggle','modal')
+           .attr('data-target','#myModal');
+        });
+      });
+      </script>
+
+      <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
       <div class="footer">
         <p>&copy; UR Seminars</p>
