@@ -12,18 +12,6 @@ Copyright (C) 2013.
 
 
 
-
-Components:
-==================================
-
-
-1. Front-end list for seminars;
-2. Back-end SQL setting for adding and editing seminars;
-3. Add calendar;
-4. Add calendar setting button; limitations: cannot add to calendar locally;
-5. Add image map, information per seminar;
-
-
 What It Can Do:
 ==================================
 
@@ -35,5 +23,14 @@ add them to his or her google calander, view the location of the lecture on a ma
 the rating of the speaker, the subject popularity, and the estimated attendance. This information gives users enough
 details to decide exactly which lectures will be worth their time, given their individual desires. 
 
+Components:
+==================================
+
+
+1. Front-end list for seminars;
+2. Back-end SQL setting for adding and editing seminars;
+3. Add calendar;
+4. Add calendar setting button; limitations: cannot add to calendar locally;
+5. Add image map, information per seminar;
 
  
