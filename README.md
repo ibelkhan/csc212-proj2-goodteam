@@ -5,7 +5,7 @@ csc212-proj2-goodteam
 * Source Codes: https://github.com/mitchellg/csc212-proj2-goodteam
 * Recommanded Browser: Newest Version of Chrome, IE, and Firefox
   
-Copyright (C) 2013.
+  Copyright (C) 2013.
 
 What Is It?:
 ==================================
@@ -30,18 +30,14 @@ How Do I Use It?
 
 Version Updates/Log:
 ==================================
-10-07: Front-end established: List of seminar information;
-
-10-09: Back-end SQL set up: Able to add and edit seminar information;
-
-10-12: Embed Google Calendar: Only able to show a personal calendar; 
-       Add map image;
-       
-10-13: Add to Calendar Button: Able to add event to calendar, manually refresh needed;
-
-10-14: Embed Google Map; 
-       Delete personal calendar (since we do not have a log in system);
-       Estimation of extra seminar information;
+* 10-07: Front-end established: List of seminar information;
+* 10-09: Back-end SQL set up: Able to add and edit seminar information;
+* 10-12: Embed Google Calendar: Only able to show a personal calendar; 
+*        Add map image;
+* 10-13: Add to Calendar Button: Able to add event to calendar, manually refresh needed;
+* 10-14: Embed Google Map; 
+         Delete personal calendar (since we do not have a log in system);
+         Estimation of extra seminar information;
 
 Contacts
 ==================================
