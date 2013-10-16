@@ -6,15 +6,16 @@ Lukas Slipski,
 Michael Shteyn, &
 Jianbo Yuan
 
+Currently maintained by Mitchell Gordon (mitchellgordon0@gmail.com).
+
+Copyright 2013.
 
 
 
-Components (original hopefuls):
+
+Components:
 ==================================
 
-
-
-Actual Design:
 
 1. Front-end list for seminars;
 2. Back-end SQL setting for adding and editing seminars;
@@ -24,9 +25,10 @@ Actual Design:
 
 
 What It Can Do:
+==================================
 
-This website's main feature is a table of upcoming seminars that are available to students. 
-Each entry in the table shows the seminar's date, time, speaker, department, a description of the lecture,
+This website's main feature is a table of upcoming academic seminars that are available to students and faculty. 
+Each entry in the table documents a seminar's date, time, speaker, department, a description of the lecture,
 the food that will be provided, and the location of the lecture. Lectures that have already happened are 
 removed from the table. The site also allows users to add new lectures to the main table. Lastly, the site
 allows users to choose a lecture, add it to his or her google calander, view the location of the lecture on
