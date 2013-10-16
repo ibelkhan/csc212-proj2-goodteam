@@ -4,7 +4,6 @@ csc212-proj2-goodteam
 * Website: http://ec2-54-205-135-226.compute-1.amazonaws.com/index.php;
 * Source Codes: https://github.com/mitchellg/csc212-proj2-goodteam;
 * Recommanded Browser: Newest Version of Chrome, IE, and Firefox.
-  Copyright (C) 2013.
 
 What Is It?:
 ==================================
@@ -45,6 +44,6 @@ Mitchell Gordon, Lukas Slipski, Michael Shteyn, Jianbo Yuan
 If you find a bug that requires attention, or have any other inquiry questions about functionality of the site, please
 feel to contact Mitchell Gordon  @<mitchellgordon0@gmail.com>.
 
-
+Copyright (C) 2013.
 
  
