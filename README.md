@@ -24,7 +24,7 @@ contains the most important component, listing seminars by the designations desc
 are able to be sorted by date, time, department, speaker information, food availability, and location, as mentioned above.
 
 Seminar info is user-submitted, and this portal can be accessed through the intuitive "Add a seminar" button, located
-centrally in the page, as well as the "Add Seminar" button in the index at the top right-hand corner of the page.
+centrally in the page, as well as the "Add Seminar" button in the index at the top right-hand corner of the page. Seminars are automatically deleted the day after they have occured.
 
 A key feature of the homepage is that a simple click on an event will pop up a window with its geographical location
 on the University of Rochester campus. This window also contains the aforementioned details of the event. Furthermore,
