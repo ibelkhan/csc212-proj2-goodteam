@@ -67,7 +67,7 @@
                 <tbody>
                 <?php
                   $db = mysqli_connect("localhost","root","password","project2"); //connects to db
-                  $sql = "DELETE * FROM seminars WHERE date < now()"; //deletes seminars from db that have already happened
+                  $sql = "DELETE FROM seminars WHERE date < now()"; //deletes seminars from db that have already happened
                   $result = $db->query($sql);
 
                   $sql = "SELECT * FROM seminars ORDER BY date"; //gets all upcoming seminars
@@ -95,6 +95,7 @@
 
       <script>
       $(document).ready(function(){
+        //enables modal onclick for each entry in table
         $('.rowlink-modal').each(function(){
             console.log('in');
          $(this)
@@ -110,14 +111,22 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Modal title</h4>
+                <h4 class="modal-title">Seminar Details</h4>
               </div>
               <div class="modal-body">
-                ...
-              </div>
+                <iframe width="500" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=d&amp;source=s_d&amp;saddr=43.125168,-77.629947&amp;daddr=&amp;hl=en&amp;geocode=&amp;sll=43.125186,-77.629794&amp;sspn=0.001456,0.002835&amp;mra=mift&amp;mrsp=0&amp;sz=19&amp;ie=UTF8&amp;t=m&amp;ll=43.125235,-77.629883&amp;spn=0.00137,0.00228&amp;z=18&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?f=d&amp;source=embed&amp;saddr=43.125168,-77.629947&amp;daddr=&amp;hl=en&amp;geocode=&amp;sll=43.125186,-77.629794&amp;sspn=0.001456,0.002835&amp;mra=mift&amp;mrsp=0&amp;sz=19&amp;ie=UTF8&amp;t=m&amp;ll=43.125235,-77.629883&amp;spn=0.00137,0.00228&amp;z=18" style="color:#0000FF;text-align:left">View Larger Map</a></small>              </div>
+                <div id="seminar-info">
+                <strong>Estimated room capacity:</strong> 100 persons </br>
+                <strong>Average subject popularity (1-10):</strong> 8 </br>
+                <strong>Speaker prominance rating (1-10):</strong> 4 </br> 
+                <strong>Estimated attendance:</strong> 80 </br>
+
+                </br><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Seminar&dates=20131021T160000Z/20131021T170000Z&details=Dr.%20John%20Sedivy&location=Hutch%20473&trp=false&sprop=UR%20Seminars&sprop=name:mgordon.me%2FURSeminars" target="_blank"><img src="//www.google.com/calendar/images/ext/gc_button2.gif" border=0></a>
+
+                </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
               </div>
             </div><!-- /.modal-content -->
           </div><!-- /.modal-dialog -->
