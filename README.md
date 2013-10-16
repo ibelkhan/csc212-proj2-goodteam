@@ -6,7 +6,7 @@ Lukas Slipski,
 Michael Shteyn, &
 Jianbo Yuan
 
-Currently maintained by Mitchell Gordon <mitchellgordon0@gmail.com>.
+Currently maintained by Mitchell Gordon @<mitchellgordon0@gmail.com>.
 
 Copyright (C) 2013.
 
@@ -29,8 +29,8 @@ How Do I Use It?
 
 Contacts
 ==================================
-If you find a bug that requires attention, or have any ohter questions about functionality of the site,please contact 
-Mitchell Gordon at <mitchellgordon0@gmail.com>.
+If you find a bug that requires attention, or have any other inquiries questions about functionality of the site, please
+feel at ease to contact Mitchell Gordon  @<mitchellgordon0@gmail.com>.
 
 
 Components:
