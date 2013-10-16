@@ -1,9 +1,9 @@
 csc212-proj2-goodteam
 ==================================
-* Website: http://ec2-54-205-135-226.compute-1.amazonaws.com/index.php
-* Title: csc212-proj2-goodteam
-* Source Codes: https://github.com/mitchellg/csc212-proj2-goodteam
-* Recommanded Browser: Newest Version of Chrome, IE, and Firefox
+* Title: csc212-proj2-goodteam;
+* Website: http://ec2-54-205-135-226.compute-1.amazonaws.com/index.php;
+* Source Codes: https://github.com/mitchellg/csc212-proj2-goodteam;
+* Recommanded Browser: Newest Version of Chrome, IE, and Firefox.
   Copyright (C) 2013.
 
 What Is It?:
