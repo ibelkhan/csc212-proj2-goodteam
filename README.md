@@ -16,12 +16,12 @@ What It Can Do:
 ==================================
 
 This webpage's primary feature is to function as an aggregator for upcoming academic talks at the University of Rochester
-available for students and faculty.Each entry in the table documents a seminar's date, time, speaker, department, lecture 
+available for students and faculty. Each entry in the table documents a seminar's date, time, speaker, department, lecture 
 topic, food provided, and location. Lectures that have already occured are automatically removed from the table. The site
-also permits users to add new lectures to the main table. Lastly, the site allows users to choose lectures, 
-add them to his or her google calander, view the location of the lecture on a map, and view the occupancy of the venue,
-the rating of the speaker, the subject popularity, and the estimated attendance. This information gives users enough
-details to decide exactly which lectures will be worth their time, given their individual desires. 
+also permits users to add new lectures to the main table. Additionally, the site allows users to choose lectures, 
+add them to their respective google calanders, view the location of the lecture on an integrated map, view the 
+occupancy of the venue, the rating of the speaker, the subject popularity, and the estimated attendance. This information 
+gives users enough details to decide exactly which lectures will be worth their time, given their individual desires. 
 
 Components:
 ==================================
