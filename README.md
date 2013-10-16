@@ -6,13 +6,13 @@ Lukas Slipski,
 Michael Shteyn, &
 Jianbo Yuan
 
-Currently maintained by Mitchell Gordon (mitchellgordon0@gmail.com).
+Currently maintained by Mitchell Gordon <mitchellgordon0@gmail.com>.
 
 Copyright (C) 2013.
 
 
 
-What It Can Do:
+What Is It?:
 ==================================
 
 This webpage's primary feature is to function as an aggregator for upcoming academic talks at the University of Rochester
@@ -22,6 +22,16 @@ also permits users to add new lectures to the main table. Additionally, the site
 add them to their respective google calanders, view the location of the lecture on an integrated map, view the 
 occupancy of the venue, the rating of the speaker, the subject popularity, and the estimated attendance. This information 
 gives users enough details to decide exactly which lectures will be worth their time, given their individual desires. 
+
+
+How Do I Use It?
+==================================
+
+Contacts
+==================================
+If you find a bug that requires attention, or have any ohter questions about functionality of the site,please contact 
+Mitchell Gordon at <mitchellgordon0@gmail.com>.
+
 
 Components:
 ==================================
