@@ -4,8 +4,6 @@ csc212-proj2-goodteam
 * Title: csc212-proj2-goodteam
 * Source Codes: https://github.com/mitchellg/csc212-proj2-goodteam
 * Recommanded Browser: Newest Version of Chrome, IE, and Firefox
-
-Currently maintained by Mitchell Gordon @<mitchellgordon0@gmail.com>.
 Copyright (C) 2013.
 ==================================
 
