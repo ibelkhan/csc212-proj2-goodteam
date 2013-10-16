@@ -2,8 +2,8 @@ csc212-proj2-goodteam
 ==================================
 * Title: csc212-proj2-goodteam;
 * Website: http://ec2-54-205-135-226.compute-1.amazonaws.com/index.php;
-* Source Codes: https://github.com/mitchellg/csc212-proj2-goodteam;
-* Recommanded Browser: Newest Version of Chrome, IE, and Firefox.
+* Source Code: https://github.com/mitchellg/csc212-proj2-goodteam;
+* Recommanded Browser: Newest Version of Chrome.
 
 What Is It?:
 ==================================
@@ -12,8 +12,8 @@ This webpage's primary feature is to function as an aggregator for upcoming acad
 Features:
 ==================================
 1. Front-end list for seminar information;
-2. Back-end SQL setting for adding and editing seminars;
-3. Easy import to Google Calendar;
+2. Back-end mySQL database for storing seminars;
+3. Easy export to Google Calendar;
 4. Embedded Google Map, easy to navigate;
 5. Estimating seminar information including: room capacity,speaker prominance rating, estimated attendance and etc.
 
@@ -39,13 +39,11 @@ to give a larger-scale bearing for a user or new student who is not familiar wit
 
 Version Updates/Log:
 ==================================
-* 10-07: Front-end established: List of seminar information;
-* 10-09: Back-end SQL set up: Able to add and edit seminar information;
-* 10-12: Embed Google Calendar: Only able to show a personal calendar; Add map image;
-* 10-13: Add to Calendar Button: Able to add event to calendar, manually refresh needed;
-* 10-14: Embed Google Map; 
-         Delete personal calendar (since we do not have a log in system);
-         Estimation of extra seminar information;
+* 10-11: Initial front-end and back-end established: List of seminar information;
+* 10-12: Graphical tweaks, code maintenance.
+* 10-13: Add map page, graphical tweaks, sorting for seminar list;
+* 10-14: Made seminars in list clickable. Modal popup with calendar export button and additional seminar info.
+
 
 Contacts
 ==================================
@@ -53,7 +51,7 @@ Authors:
 Mitchell Gordon, Lukas Slipski, Michael Shteyn, Jianbo Yuan
 
 If you find a bug that requires attention, or have any other inquiries about the functionality of the site, please
-feel free to contact Mitchell Gordon  @<mitchellgordon0@gmail.com>.
+feel free to contact Mitchell Gordon <m.gordon@rochester.edu>.
 
 Copyright (C) 2013.
 
