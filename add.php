@@ -44,8 +44,8 @@
 
       <form role="form" action="addSeminar.php">
         <div class="form-group">
-          <label for="speaker1">Speaker</label>
-          <input type="text" class="form-control" id="speaker1" placeholder="Speaker name" name = "speaker">
+          <label for="speaker1">Speaker (Last, First Title)</label>
+          <input type="text" class="form-control" id="speaker1" placeholder="Example: Einstein, Albert PhD" name = "speaker">
         </div>
         <div class="form-group">
           <label for="department1">Department</label>
