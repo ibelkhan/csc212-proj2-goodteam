@@ -52,6 +52,11 @@ Mitchell Gordon, Lukas Slipski, Michael Shteyn, Jianbo Yuan
 If you find a bug that requires attention, or have any other inquiries about the functionality of the site, please
 feel free to contact Mitchell Gordon <m.gordon@rochester.edu>.
 
+Wizard of oz features:
+==================================
+* The "Add to calendar" button and map displayed when clicking on a seminar are currently a hard-coded  and do not change to reflect the actual seminar clikced on.
+* Estimated attandence and related statsitcs are also currently hard-coded.
+
 Copyright (C) 2013.
 
  
