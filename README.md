@@ -23,9 +23,6 @@ The module consists of three web pages. The main page, found [here](http://ec2-5
 contains the most important component, listing seminars by the designations described above. These features, crucially,
 are able to be sorted by date, time, department, speaker information, food availability, and location, as mentioned above.
 
-Seminar info is user-submitted, and this portal can be accessed through the intuitive "Add a seminar" button, located
-centrally in the page, as well as the "Add Seminar" button in the index at the top right-hand corner of the page.
-
 A key feature of the homepage is that a simple click on an event will pop up a window with its geographical location
 on the University of Rochester campus. This window also contains the aforementioned details of the event. Furthermore,
 through this interface, if a user is interested, he can add the event to his directly to his Google calender with 1-click.
@@ -33,6 +30,8 @@ through this interface, if a user is interested, he can add the event to his dir
 The last feature is a large map of the University of Rochester campus, located at the top right of the homepage, in order
 to give a larger-scale bearing for a user or new student who is not familiar with the geography of the University.
 
+Seminar info is user-submitted, and this portal can be accessed through the intuitive "Add a seminar" button, located
+centrally in the page, as well as the "Add Seminar" button in the index at the top right-hand corner of the page. Seminars are automatically deleted the day after they have occured.
 
 
 
@@ -52,6 +51,11 @@ Mitchell Gordon, Lukas Slipski, Michael Shteyn, Jianbo Yuan
 
 If you find a bug that requires attention, or have any other inquiries about the functionality of the site, please
 feel free to contact Mitchell Gordon <m.gordon@rochester.edu>.
+
+Wizard of oz features:
+==================================
+* The "Add to calendar" button and map displayed when clicking on a seminar are currently a hard-coded  and do not change to reflect the actual seminar clikced on.
+* Estimated attandence and related statsitcs are also currently hard-coded.
 
 Copyright (C) 2013.
 
